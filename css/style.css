@@ -1,0 +1,117 @@
+/*
+- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
+- Dark Blue (main background): hsl(218, 28%, 13%)
+- Dark Blue (footer background): hsl(216, 53%, 9%)
+- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+*/
+
+body {
+  background-image: url("/Second major task/images1/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(218, 28%, 25%);
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+.header {
+  height: 8%;
+  width: 100%;
+}
+#header-name {
+  text-align: left;
+  font-size: 2em;
+}
+#header-links {
+  text-align: right;
+  margin-right: 50px;
+}
+#header-link-item {
+  text-decoration: none;
+  margin: 25px;
+  font-size: 20px;
+  color: white;
+}
+#header-link-item:hover {
+  text-decoration: underline;
+}
+
+#all-your-files {
+  margin: 200px;
+}
+.button {
+  background-color: rgb(133, 188, 250);
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.grid-container {
+  margin: 200px;
+
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 70% 70%;
+  justify-content: space-around;
+  align-content: stretch;
+}
+
+#grid-container2 {
+  margin-bottom: 150px;
+
+  display: grid;
+  grid-template-columns: 50% 35%;
+  justify-content: space-around;
+}
+
+#grid-container3 {
+  margin: 200px;
+
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+}
+#grid-item3 {
+  border-radius: 5px;
+  background-color: hsl(219, 30%, 18%);
+  padding: 10px;
+}
+#grid-info3 {
+  margin-right: 270px;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+#early-access {
+  background-color: hsl(217, 28%, 15%);
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 15%;
+  position: relative;
+}
+#grid-container4 {
+  height: 180px;
+  padding: 30px;
+  background-color: hsl(216, 53%, 9%);
+
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  justify-content: space-evenly;
+}
+#grid-item4 {
+  padding-top: 30px;
+}
